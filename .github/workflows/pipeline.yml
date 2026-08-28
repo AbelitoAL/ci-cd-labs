@@ -34,6 +34,9 @@ jobs:
       - name: Mostrar versión de Git
         run: git --version
 
+      - name: Ejecutar validacion de build
+        run: echo "Validacion de build ejecutada correctamente."
+
       - name: Finalizar pipeline
         run: echo "Pipeline ejecutado correctamente."
 
