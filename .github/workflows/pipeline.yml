@@ -34,8 +34,8 @@ jobs:
       - name: Mostrar versión de Git
         run: git --version
 
-      - name: Ejecutar validacion de build (Parte 8 - fallo deliberado)
-        run: comando-que-no-existe-para-simular-fallo
+      - name: Ejecutar validacion de build
+        run: echo "Validacion de build ejecutada correctamente."
 
       - name: Finalizar pipeline
         run: echo "Pipeline ejecutado correctamente."
