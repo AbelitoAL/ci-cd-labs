@@ -5,7 +5,8 @@
  */
 
 function sum(a, b) {
-  return a + b;
+  // BUG deliberado (Laboratorio 3 - Parte 4): resta en vez de sumar.
+  return a - b;
 }
 
 function subtract(a, b) {
